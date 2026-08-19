@@ -55,10 +55,3 @@ so an internet connection is needed.
 ├── requirements.txt
 └── README.md
 ```
-
-## Notes and next steps
-
-The current version estimates the hedge ratio and stationarity on the full sample,
-so results are in-sample. Planned improvements: estimate parameters on a training
-window and trade out-of-sample, frame the spread with a consistent hedge ratio
-across signals and P&L, and add transaction costs to the backtest.
